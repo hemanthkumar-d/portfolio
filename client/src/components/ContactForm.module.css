@@ -1,0 +1,109 @@
+.form {
+  max-width: 600px;
+}
+
+.field {
+  margin-bottom: 22px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--color-text);
+  letter-spacing: 0.01em;
+}
+
+.input {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  font-size: 1rem;
+  color: var(--color-text);
+  background: rgba(18, 18, 30, 0.5);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  transition: all var(--transition);
+}
+
+.input::placeholder {
+  color: var(--color-text-muted);
+}
+
+.input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+  box-shadow: 0 0 0 3px var(--color-primary-glow), 0 0 20px rgba(99, 102, 241, 0.1);
+  background: rgba(18, 18, 30, 0.7);
+}
+
+.inputError {
+  border-color: var(--color-error);
+}
+
+.inputError:focus {
+  box-shadow: 0 0 0 3px rgba(248, 113, 113, 0.2);
+}
+
+.fieldError {
+  display: block;
+  margin-top: 6px;
+  font-size: 0.82rem;
+  color: var(--color-error);
+}
+
+.serverError {
+  padding: 14px 18px;
+  margin-bottom: 22px;
+  background: var(--color-error-bg);
+  border: 1px solid rgba(248, 113, 113, 0.2);
+  border-radius: var(--radius);
+  color: var(--color-error);
+  font-size: 0.9rem;
+}
+
+.successBox {
+  text-align: center;
+  padding: 48px 24px;
+  background: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  -webkit-backdrop-filter: var(--glass-blur);
+  border: 1px solid var(--glass-border);
+  border-radius: var(--radius-lg);
+  animation: scaleIn 400ms ease forwards;
+}
+
+.successBox h3 {
+  font-family: var(--font-heading);
+  color: var(--color-success);
+  font-size: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.successBox p {
+  color: var(--color-text-light);
+  margin-bottom: 24px;
+}
+
+/* Success checkmark animation */
+.successBox::before {
+  content: '✓';
+  display: block;
+  width: 56px;
+  height: 56px;
+  line-height: 56px;
+  margin: 0 auto 16px;
+  background: var(--color-success-bg);
+  border: 2px solid var(--color-success);
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: var(--color-success);
+  animation: scaleIn 500ms ease forwards;
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}

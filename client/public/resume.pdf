@@ -1,0 +1,230 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R /F3 7 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 2988 >>
+stream
+BT
+/F1 22 Tf
+50 740 Td
+(Hemanth Kumar) Tj
+ET
+BT
+/F2 11 Tf
+50 720 Td
+(Electrical & Electronics / Communication Engineering Student & Full-Stack Developer) Tj
+ET
+BT
+/F2 9 Tf
+50 702 Td
+(Address: No. 29, Rajaji Street, Anakaputhur, Chennai - 600070  |  Phone: +91 8940132984) Tj
+ET
+BT
+/F2 9 Tf
+50 690 Td
+(Email: hawkeye08092007@gmail.com  |  LinkedIn: linkedin.com/in/hemanth-kumar-1234813a1  |  GitHub: github.com/hemanthkumar-d) Tj
+ET
+0.5 w
+50 678 m
+562 678 l
+S
+BT
+/F1 14 Tf
+50 650 Td
+(EDUCATION) Tj
+ET
+BT
+/F1 11 Tf
+50 632 Td
+(Prince Shri Venkateshwara Padmavathy Engineering College) Tj
+ET
+BT
+/F2 10 Tf
+380 632 Td
+(Aug 2025 - Jul 2029) Tj
+ET
+BT
+/F3 10 Tf
+50 618 Td
+(Bachelor of Engineering - BE, Electronics and Communication Engineering) Tj
+ET
+0.5 w
+50 600 m
+562 600 l
+S
+BT
+/F1 14 Tf
+50 575 Td
+(TECHNICAL SKILLS) Tj
+ET
+BT
+/F1 11 Tf
+50 557 Td
+(Web Development:) Tj
+ET
+BT
+/F2 10 Tf
+170 557 Td
+(React, Node.js, Express.js, MongoDB, JavaScript, HTML5, CSS3, REST APIs) Tj
+ET
+BT
+/F1 11 Tf
+50 541 Td
+(Other Skills:) Tj
+ET
+BT
+/F2 10 Tf
+170 541 Td
+(Engineering Principles, Project Management, Socket.io, Git, GitHub) Tj
+ET
+0.5 w
+50 523 m
+562 523 l
+S
+BT
+/F1 14 Tf
+50 495 Td
+(PROJECTS) Tj
+ET
+BT
+/F1 11 Tf
+50 477 Td
+(Personal Portfolio Website) Tj
+ET
+BT
+/F2 9 Tf
+330 477 Td
+(GitHub: github.com/hemanthkumar-d/personal-portfolio) Tj
+ET
+BT
+/F3 9.5 Tf
+50 463 Td
+(Tech Stack: React, Node.js, Express, MongoDB, Vercel) Tj
+ET
+BT
+/F2 9.5 Tf
+50 449 Td
+(- Developed a full-stack personal portfolio to showcase projects, skills, and contact form integration.) Tj
+ET
+BT
+/F1 11 Tf
+50 425 Td
+(Task Management Application) Tj
+ET
+BT
+/F2 9 Tf
+330 425 Td
+(GitHub: github.com/hemanthkumar-d/task-manager) Tj
+ET
+BT
+/F3 9.5 Tf
+50 411 Td
+(Tech Stack: React, Node.js, Express, MongoDB, Socket.io) Tj
+ET
+BT
+/F2 9.5 Tf
+50 397 Td
+(- Built a task management web app featuring secure authentication, CRUD, and real-time WebSocket updates.) Tj
+ET
+BT
+/F1 11 Tf
+50 373 Td
+(E-Commerce Web Application) Tj
+ET
+BT
+/F2 9 Tf
+330 373 Td
+(GitHub: github.com/hemanthkumar-d/ecommerce-platform) Tj
+ET
+BT
+/F3 9.5 Tf
+50 359 Td
+(Tech Stack: React, Node.js, Express, MongoDB, Stripe) Tj
+ET
+BT
+/F2 9.5 Tf
+50 345 Td
+(- Created an online store with product catalog, add-to-cart, checkout, and role-based access control.) Tj
+ET
+BT
+/F1 11 Tf
+50 321 Td
+(Blog Platform with Comments) Tj
+ET
+BT
+/F2 9 Tf
+330 321 Td
+(GitHub: github.com/hemanthkumar-d/blog-platform) Tj
+ET
+BT
+/F3 9.5 Tf
+50 307 Td
+(Tech Stack: Next.js, Node.js, Express, MongoDB, MDX) Tj
+ET
+BT
+/F2 9.5 Tf
+50 293 Td
+(- Developed a blogging platform with user registration, login, post editing, and interactive comments.) Tj
+ET
+0.5 w
+50 275 m
+562 275 l
+S
+BT
+/F1 14 Tf
+50 247 Td
+(ADDITIONAL DETAILS & LANGUAGES) Tj
+ET
+BT
+/F1 11 Tf
+50 229 Td
+(Languages:) Tj
+ET
+BT
+/F2 10 Tf
+170 229 Td
+(English (Professional), Tamil (Native)) Tj
+ET
+BT
+/F1 11 Tf
+50 213 Td
+(Interests:) Tj
+ET
+BT
+/F2 10 Tf
+170 213 Td
+(Open Source, Full Stack Web Technologies, Electronics Innovation, Project Coordination) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000261 00000 n 
+0000003301 00000 n 
+0000003376 00000 n 
+0000003446 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+3524
+%%EOF

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Resume - Hemanth Kumar</title>
+  <style>
+    :root {
+      --primary: #2563EB;
+      --text: #333;
+      --light-text: #666;
+      --bg: #fff;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: #f4f4f5;
+      padding: 2rem;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--bg);
+      padding: 3rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    header {
+      border-bottom: 2px solid var(--primary);
+      padding-bottom: 1.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info {
+      color: var(--light-text);
+      font-size: 0.95rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .contact-info span {
+      display: inline-block;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      border-bottom: 1px solid #e4e4e7;
+      padding-bottom: 0.5rem;
+    }
+
+    .item {
+      margin-bottom: 1.5rem;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      margin-bottom: 0.25rem;
+    }
+
+    .item-header h3 {
+      font-size: 1.2rem;
+      color: var(--text);
+    }
+
+    .date {
+      color: var(--light-text);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    .subtitle {
+      font-weight: 500;
+      color: #3f3f46;
+      margin-bottom: 0.5rem;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      list-style: none;
+    }
+
+    .skills-list li {
+      background: #eff6ff;
+      color: var(--primary);
+      padding: 0.3rem 0.8rem;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    /* Print Styles */
+    @media print {
+      body {
+        background: none;
+        padding: 0;
+      }
+
+      .resume-container {
+        box-shadow: none;
+        border-radius: 0;
+        padding: 0;
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="resume-container">
+    <header>
+      <h1>Hemanth Kumar</h1>
+      <div class="contact-info">
+        <span>📍 No. 29, Rajaji Street,
+          Karikalan Nagar,
+          Anakaputhur,
+          Chennai – 600070,
+          Tamil Nadu, India.</span>
+        <span>📞 8940132984</span>
+        <span>✉️ hawkeye08092007@gmail.com</span>
+        <span>🔗 linkedin.com/in/hemanth-kumar-1234813a1</span>
+        <span>🐙 github.com/hemanthkumar-d</span>
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="item">
+        <div class="item-header">
+          <h3>Prince Shri Venkateshwara Padmavathy Engineering College</h3>
+          <span class="date">August 2025 - July 2029</span>
+        </div>
+        <p class="subtitle">Bachelor of Engineering - BE, Electrical, Electronic and Communications Engineering
+          Technology</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <h3>Prince Shri Venkateshwara Padmavathy Engineering College</h3>
+          <span class="date">2025</span>
+        </div>
+        <p class="subtitle">Bachelor of Engineering - BE, ECE</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Top Skills</h2>
+      <ul class="skills-list">
+        <li>Engineering</li>
+        <li>Project Management</li>
+        <li>English</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Technical Skills (Web Development)</h2>
+      <ul class="skills-list">
+        <li>React</li>
+        <li>Node.js</li>
+        <li>MongoDB</li>
+        <li>Express</li>
+        <li>JavaScript</li>
+        <li>HTML & CSS</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Academic & Full-Stack Projects</h2>
+      <div class="item">
+        <div class="item-header">
+          <h3>Personal Portfolio Website</h3>
+          <span class="date">React, Node.js, Express, MongoDB, Vercel</span>
+        </div>
+        <p class="subtitle">Built a full-stack personal portfolio website showcasing projects, skills, and custom dynamic components.</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <h3>Task Management Application</h3>
+          <span class="date">React, Node.js, Express, MongoDB, Socket.io</span>
+        </div>
+        <p class="subtitle">Developed a task management web application with user authentication, CRUD operations, and real-time updates.</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <h3>E-Commerce Web Application</h3>
+          <span class="date">React, Node.js, Express, MongoDB, Stripe</span>
+        </div>
+        <p class="subtitle">Created an online store featuring product catalog, shopping cart, checkout functionality, and role-based authentication.</p>
+      </div>
+      <div class="item">
+        <div class="item-header">
+          <h3>Blog Platform with Comments</h3>
+          <span class="date">Next.js, Node.js, Express, MongoDB, MDX</span>
+        </div>
+        <p class="subtitle">Developed a responsive blogging platform where authenticated users can publish posts and interact via nested comment threads.</p>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+export const mockProjects = [
+  {
+    _id: 'mock1',
+    title: 'Personal Portfolio Website',
+    description: 'A full-stack personal portfolio showcasing skills, projects, and custom interactive components. Built with a MERN stack backend and Vite React frontend.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Vercel'],
+    githubUrl: 'https://github.com/hemanthkumar-d/personal-portfolio',
+    liveUrl: 'https://hemanth-portfolio.vercel.app',
+    imageUrl: 'https://placehold.co/800x500/2563EB/FFFFFF?text=Personal+Portfolio+Website',
+    featured: true,
+  },
+  {
+    _id: 'mock2',
+    title: 'Task Management Application',
+    description: 'A full-stack task management web application for creating, updating, and tracking tasks. Features secure user authentication and dynamic CRUD operations.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Socket.io'],
+    githubUrl: 'https://github.com/hemanthkumar-d/task-manager',
+    liveUrl: 'https://tasks-demo.example.com',
+    imageUrl: 'https://placehold.co/800x500/0EA5E9/FFFFFF?text=Task+Management+App',
+    featured: true,
+  },
+  {
+    _id: 'mock3',
+    title: 'E-Commerce Web Application',
+    description: 'A complete e-commerce store with product catalog management, add-to-cart, user authentication (Admin/User), and order tracking workflows.',
+    techStack: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+    githubUrl: 'https://github.com/hemanthkumar-d/ecommerce-platform',
+    liveUrl: 'https://ecommerce-demo.example.com',
+    imageUrl: 'https://placehold.co/800x500/10B981/FFFFFF?text=E-Commerce+Platform',
+    featured: false,
+  },
+  {
+    _id: 'mock4',
+    title: 'Blog Platform with Comments',
+    description: 'A responsive blogging platform with user authentication, custom post editor (create, edit, delete), and interactive comment threads.',
+    techStack: ['Next.js', 'MongoDB', 'Tailwind CSS', 'MDX'],
+    githubUrl: 'https://github.com/hemanthkumar-d/blog-platform',
+    liveUrl: 'https://blog-demo.example.com',
+    imageUrl: 'https://placehold.co/800x500/8B5CF6/FFFFFF?text=Blog+Platform',
+    featured: true,
+  },
+];
+
